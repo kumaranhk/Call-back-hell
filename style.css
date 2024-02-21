@@ -1,0 +1,17 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#btn{
+    padding: 10px;
+    width: 150px;
+    /* height: 30px; */
+}
+#timer{
+    font-size: larger;
+    margin-top: 10px;
+    height: 50px;
+    width: 150px;
+    border: 2px solid black;
+}
