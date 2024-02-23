@@ -1,9 +1,11 @@
 let timer = document.getElementById('timer');
 let btn = document.getElementById('btn');
+let happy = document.getElementById('happy');
 
 //Function for disabling the button 
 function disable(){
     btn.disabled = true;
+    btn.style.backgroundColor =
     setTimeout(() => {
         btn.disabled = false;
     },11000);
@@ -32,6 +34,7 @@ function time(){
                                         setTimeout(() =>{
                                             timer.innerHTML = '1';
                                             setTimeout(() =>{
+                                                timer.style.fontSize = 'larger';
                                                 timer.innerHTML = 'Happy Independance Day!';
                                             },1000);
                                         },1000);

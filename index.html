@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Call back hell</title>
+    <link rel="stylesheet" href="style.css" >
 </head>
 <body>
-    <button id="btn" onclick="time(); disable()">Touch to start</button>
-    <div id="timer">
-
+    <h1 id="title">Independance Day timer</h1>
+    <p id="description">Click the start button for triggering the timer</p>
+    <div id="main">
+        <button id="btn" onclick="time(); disable()">START</button>
+        <div id="timer"></div>
     </div>
     <script src="script.js"></script>
 </body>

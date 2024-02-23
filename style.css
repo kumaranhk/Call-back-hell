@@ -1,17 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 100vh;
+    /* background-image: url(./pexels-arnie-chou-1229042.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+}
+h1{
+    font-weight: bold;
+}
+p{
+    font-size: large;
+}
+#main{
+    border: 2px solid rgb(0, 0, 0);
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(0, -50%);
+    padding: 10px;
+    /* border-radius: 10%;
+    backdrop-filter: blur(5px); */
 }
 #btn{
+    background-color: rgb(184, 0, 0);
+    color: white;
     padding: 10px;
     width: 150px;
-    /* height: 30px; */
-}
-#timer{
     font-size: larger;
+    border: none;
+    margin-left: 20%;
+    cursor: pointer;
+}
+
+#timer{
+    color: rgb(0, 0, 0);
+    font-size: 45px;
+    text-align: center;
     margin-top: 10px;
     height: 50px;
-    width: 150px;
+    width: 250px;
     border: 2px solid black;
+}
+@media screen and (max-width: 1150px) and (min-width: 850px){
+    #main{
+        left: 38%;
+    }
+}
+@media screen and (max-width: 849px) and (min-width: 701px){
+    #main{
+        left: 34%;
+    }
+}
+@media screen and (max-width: 700px) and (min-width: 650px){
+    #main{
+        left: 32%;
+    }
+}
+@media screen and (max-width: 649px) and (min-width: 550px){
+    #main{
+        left: 29%;
+    }
+}
+@media screen and (max-width: 549px) and (min-width: 481px){
+    #main{
+        left: 24%;
+    }
+}
+@media screen and (max-width: 480px) and (min-width: 440px){
+    #main{
+        left: 21%;
+    }
+}
+@media screen and (max-width: 440px) and (min-width: 390px){
+    #main{
+        left: 18%;
+    }
+}
+@media screen and (max-width: 389px) and (min-width: 330px){
+    #main{
+        left: 13%;
+    }
+    h1{
+        font-size: x-large;
+    }
+    p{
+        font-size: large;
+    }
+}
+@media screen and (max-width: 329px) and (min-width: 0px){
+    #main{
+        left: 7%;
+    }
+    h1{
+        font-size: larger;
+    }
+    p{
+        font-size: medium;
+    }
 }
