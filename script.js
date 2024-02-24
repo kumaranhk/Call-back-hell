@@ -40,7 +40,7 @@ function time(){
                                             setTimeout(() =>{
                                                 timer.style.fontSize = 'larger';
                                                 timer.innerHTML = 'Happy Independance Day!';
-                                            },0);
+                                            },1000);
                                         },1000);
                                     },1000);
                                 },1000);
@@ -50,5 +50,5 @@ function time(){
                 },1000);
             },1000);
         },1000);
-    },1000);
+    },0);
 };
