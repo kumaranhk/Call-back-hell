@@ -1,6 +1,5 @@
 let timer = document.getElementById('timer');
 let btn = document.getElementById('btn');
-let happy = document.getElementById('happy');
 
 //Function for disabling the button 
 function disable(){
